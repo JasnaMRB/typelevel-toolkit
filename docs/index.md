@@ -39,10 +39,19 @@ libraryDependencies ++= Seq(
 
 ## Quick Start
 
-Getting started with the toolkit is as simple as running a single command:
+To get started, install [scala-cli](https://scala-cli.virtuslab.org/install/) and download the accompanying [template](https://github.com/typelevel/toolkit.g8) in a folder called `typelevel`. Then, run this command: 
+
+``` sh
+$ scala-cli --power new typelevel/toolkit.g8
+```
+
+And finally, to run your new script:
 
 ```sh
-scala-cli --power new typelevel/toolkit.g8
+$ scala-cli run <YourScript>.scala
+Compiling project [Scala X.X.X, JVM (X)]
+Compiled project [Scala X.X.X, JVM (X)]
+Hello, World!
 ```
 
 ## Example
